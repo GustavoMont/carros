@@ -13,6 +13,10 @@
     {{-- Tailwind --}}
     <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
 
+    {{-- Toast --}}
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
     <title>Locadora de Carros</title>
 </head>
 
@@ -28,6 +32,8 @@
         </div>
     </main>
 
+    {{-- Componente anonimo do Toast --}}
+    <x-admin.toastify />
 
 </body>
 
